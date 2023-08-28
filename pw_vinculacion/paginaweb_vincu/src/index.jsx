@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+// { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 
 export const InicioDesk = () => {
   return (
@@ -10,7 +11,8 @@ export const InicioDesk = () => {
           <img src="src/assets/images/ventilador.jpeg" alt="Imagen de Portada" />
           <div className="rectangle-4" />
           <div className="text-wrapper">+(593) 2345 6789</div>
-          <div className="text-wrapper-2">Inicio</div>
+          <div className="text-wrapper-2">Inicio
+          </div>
           <div className="text-wrapper-3">Nosotros</div>
           <div className="text-wrapper-4">Proyecto</div>
           <div className="text-wrapper-5">Galeria</div>
@@ -41,13 +43,13 @@ export const InicioDesk = () => {
           <div className="text-wrapper-11">Sobre el Proyecto</div>
           <div className="text-wrapper-12">Repotenciacion de Computadores</div>
           <p className="text-wrapper-13">
-          El proyecto de vinculación universitaria de ESPE se centra en revitalizar 
-          máquinas informáticas para donarlas a comunidades que las necesiten.
+            El proyecto de vinculación universitaria de ESPE se centra en revitalizar
+            máquinas informáticas para donarlas a comunidades que las necesiten.
           </p>
           <p className="text-wrapper-14">
-          Mediante la repotenciación de equipos, buscamos extender su vida útil y brindar acceso digital a 
-          comunidades vulnerables. Esta iniciativa fomenta la inclusión, empoderamiento y desarrollo, 
-          aliviando las barreras tecnológicas y fortaleciendo los lazos entre la universidad y la sociedad.
+            Mediante la repotenciación de equipos, buscamos extender su vida útil y brindar acceso digital a
+            comunidades vulnerables. Esta iniciativa fomenta la inclusión, empoderamiento y desarrollo,
+            aliviando las barreras tecnológicas y fortaleciendo los lazos entre la universidad y la sociedad.
           </p>
           <div className="text-wrapper-15">LEER MAS</div>
           <div className="text-wrapper-16">15+</div>
@@ -62,7 +64,7 @@ export const InicioDesk = () => {
           <p className="text-wrapper-25">En este camino seguimos los siguientes objetivos</p>
           <div className="text-wrapper-26">Plan e Investigacion</div>
           <p className="text-wrapper-27">
-            Investigamos a profundidas el hardware de los dispositvos, analizando y desarrollando estrategias para 
+            Investigamos a profundidas el hardware de los dispositvos, analizando y desarrollando estrategias para
             una mayor vida util de los mismos.
           </p>
           <div className="text-wrapper-28">Read More</div>
@@ -74,7 +76,7 @@ export const InicioDesk = () => {
           <div className="text-wrapper-31">Read More</div>
           <div className="text-wrapper-32">Entrega</div>
           <p className="text-wrapper-33">
-            Entregamos los dispositivos a las comunidades que los necesiten, para que puedan ser utilizados 
+            Entregamos los dispositivos a las comunidades que los necesiten, para que puedan ser utilizados
             por quienes lo necesiten.
           </p>
           <div className="text-wrapper-34">Read More</div>
@@ -133,7 +135,7 @@ export const InicioDesk = () => {
           <div className="text-wrapper-56">★</div>
           <div className="text-wrapper-57">Ingeniero Omar Quimbita</div>
           <p className="text-wrapper-59">
-          Supervisor del proyecto de repotenciacion de maquinas.
+            Supervisor del proyecto de repotenciacion de maquinas.
           </p>
         </div>
         <div className="overlap-9">
