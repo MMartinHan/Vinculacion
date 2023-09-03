@@ -1,0 +1,23 @@
+/* Estilos para la sección de presentación */
+.presentation {
+    background-color: #f0f0f0; /* Fondo claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .presentation-left {
+    flex: 1;
+  }
+  
+  .presentation-right {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .presentation img {
+    max-width: 100%;
+    height: auto;
+  }
+  

@@ -1,0 +1,82 @@
+/* Contact.css */
+
+.contact {
+    padding: 20px;
+  }
+  
+  /* Sección 1: Imagen y Formulario de Contacto */
+  .section1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section1 .left,
+  .section1 .right {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .section1 .left img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .section1 .right h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .section1 .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .section1 input[type="text"],
+  .section1 input[type="email"],
+  .section1 textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .section1 button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Sección 2: Cajas de Texto */
+  .section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .text-box {
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .text-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .text-box p {
+    font-size: 16px;
+  }
+  
+  /* Estilos adicionales según sea necesario */
+  

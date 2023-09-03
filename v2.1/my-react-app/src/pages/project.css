@@ -1,0 +1,102 @@
+/* Project.css */
+
+.project {
+    padding: 20px;
+  }
+  
+  /* Estilos generales para las secciones */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  /* Sección de Misión y Visión */
+  .project-mission-vision .carousel {
+    display: flex;
+    align-items: center;
+  }
+  
+  .project-mission-vision .carousel-button {
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0 10px;
+  }
+  
+  .project-mission-vision .carousel-content {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .project-mission-vision h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .project-mission-vision img {
+    max-width: 100%;
+    height: auto;
+    height: 500px;
+    width: auto;
+  }
+  
+  /* Sección de Objetivos */
+  .project-objectives .objective-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project-objectives .objective-box {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .project-objectives .objective-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  /* En tu archivo Project.css */
+.project-students {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.student-overlay {
+  position: relative;
+}
+
+.student-image {
+  /*max-width: 100%;
+  height: auto;
+  width: 100%;
+  position: absolute;*/
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: auto;
+  
+}
+
+.student-details {
+  flex: 1;
+  padding: 0 20px;
+}
+
+/* Agrega más estilos según sea necesario */
+
+  

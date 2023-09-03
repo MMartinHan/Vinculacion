@@ -1,0 +1,142 @@
+/* Estilos generales para la página de inicio */
+.home {
+    background-color: #fff;
+    /* Fondo claro */
+    color: #333;
+    /* Texto oscuro */
+    padding: 20px;
+    /* Agrega más estilos generales aquí según sea necesario */
+}
+
+/* Estilos para la sección 1 (Título) */
+.section1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.section1 h1 {
+    font-size: 36px;
+    /* Agrega más estilos para el título aquí */
+}
+
+/* Estilos para la sección 2 (Imagen y Descripción) */
+.section2 {
+    display: flex;
+    align-items: center;
+    /* Agrega más estilos para la sección 2 aquí */
+}
+
+.section2 .left {
+    flex: 1;
+    /* Estilos para el lado izquierdo (imagen) */
+}
+
+/* Estilos para la imagen */
+.section2 .left img {
+    width: 100%;
+    /* Ancho del 100% del contenedor */
+    max-width: 500px;
+    /* Ancho máximo de 400 píxeles */
+    /* Agrega otros estilos de la imagen según sea necesario */
+}
+
+.section2 .right {
+    flex: 1;
+    /* Estilos para el lado derecho (descripción) */
+}
+
+/* Estilos para la sección 3 (Datos) */
+.section3 {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.section3 .data {
+    display: flex;
+    /* Agrega estilos para los datos individuales aquí */
+}
+
+.section3 .data-item {
+    flex: 1;
+    text-align: center;
+    /* Estilos para cada dato individual aquí */
+
+    background-color: #d128ab; /* Color de fondo de la caja de datos */
+    color: #fff; /* Color de texto en las cajas de datos */
+    padding: 20px; /* Espaciado interno de las cajas de datos */
+    margin: 10px; /* Espaciado entre las cajas de datos */
+    text-align: center; /* Centra el texto horizontalmente en las cajas */
+    border-radius: 10px; /* Borde redondeado de las cajas de datos */
+    width: 200px; /* Ancho de las cajas de datos */
+    /* Agrega otros estilos según sea necesario */
+}
+
+.data-item:nth-child(odd) {
+    background-color: #087de3; /* Color de fondo de las cajas impares */
+  }
+  
+  .data-item:nth-child(even) {
+    background-color: #076e1a; /* Color de fondo de las cajas pares */
+  }
+
+/* Estilos para la sección 4 */
+.section4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas por fila */
+    gap: 20px; /* Espacio entre las características */
+    /* Agrega otros estilos según sea necesario */
+  }
+  
+  .section4 .feature {
+    text-align: center;
+    /* Estilos para cada característica aquí */
+  }
+  
+  /* Estilos para las imágenes de las características */
+  .section4 .feature img {
+    max-width: 100%; /* Imágenes ajustadas al ancho del contenedor */
+    height: auto; /* Mantener la proporción de aspecto */
+  }
+  
+
+/* Estilos para la sección 5 (Personas Encargadas) */
+.section5 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    /*justify-content: space-around;*/
+    /* Agrega estilos para la sección 5 aquí */
+}
+
+.section5 .person {
+    text-align: center;
+    /* Estilos para cada persona aquí */
+}
+
+.section5 .person img {
+    max-width: 100%;
+    height: auto;
+    /* Estilos para cada imagen aquí */
+}
+
+/* Estilos para la sección 6 (Subtítulo, Descripción e Imagen de Mapa) */
+.section6 {
+    display: flex;
+    align-items: center;
+    /* Agrega estilos para la sección 6 aquí */
+}
+
+.section6 .left {
+    flex: 1;
+    /* Estilos para el lado izquierdo (subtítulo y descripción) */
+}
+
+.section6 .right {
+    flex: 1;
+    /* Estilos para el lado derecho (imagen de mapa) */
+}
+
+/* Agrega más estilos según sea necesario */
