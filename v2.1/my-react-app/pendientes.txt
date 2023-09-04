@@ -1,8 +1,4 @@
-Hacer el inicio (ingresar el mapa de google con la ubi de la espe combinar los colores de fondo)
-Hacer el proyecto
-Hacer el Contactos (listo)
-Hacer galeria (listo)
+Combinar colores de fondo en secciones de las paginas (arrelgar el de inicio, los demas ya estan)
 Vincular con la pagina para estudiantes participantes 
 navegacion entre paginas a traves del menu
 agregar animaciones
-poner colores de fondo

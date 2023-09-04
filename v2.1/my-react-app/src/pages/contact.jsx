@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/header.jsx';
 import Footer from '../components/footer.jsx';
+import MapComponent from '../components/Map.jsx';
 import './contact.css';
 
 function Contact() {
@@ -62,8 +63,8 @@ function Contact() {
         </div>
       </section>
       <br></br>
-
-
+      <MapComponent />
+      <br></br>
       <Footer />
     </div>
   );

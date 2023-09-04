@@ -8,6 +8,17 @@
     /* Agrega más estilos generales aquí según sea necesario */
 }
 
+.subtitle{
+    text-align: center;
+    background-color: #002855;
+    margin-top: 0;
+
+    h2{
+        color: #fff;
+        margin-top: 0;
+    }
+}
+
 /* Estilos para la sección 1 (Título) */
 .section1 {
     text-align: center;
@@ -82,12 +93,22 @@
     background-color: #076e1a; /* Color de fondo de las cajas pares */
   }
 
+
 /* Estilos para la sección 4 */
 .section4 {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columnas por fila */
     gap: 20px; /* Espacio entre las características */
+    background-color: #002855;
+    margin-top: 0 !important;
     /* Agrega otros estilos según sea necesario */
+  }
+
+  .section4 h3{
+    color: #fff;
+  }
+  .section4 p{
+    color: #fff;
   }
   
   .section4 .feature {
@@ -107,9 +128,17 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    background-color: #002855;
     /*justify-content: space-around;*/
     /* Agrega estilos para la sección 5 aquí */
 }
+
+.section5 h4{
+    color: #fff;
+  }
+  .section5 p{
+    color: #fff;
+  }
 
 .section5 .person {
     text-align: center;
@@ -134,9 +163,19 @@
     /* Estilos para el lado izquierdo (subtítulo y descripción) */
 }
 
+.section6 .left h2{
+    text-align: center;
+    
+}
+
+.section6 .left p{
+    text-align: justify;
+}
+
 .section6 .right {
     flex: 1;
-    /* Estilos para el lado derecho (imagen de mapa) */
+    margin-left: 20px;
+    
 }
 
 /* Agrega más estilos según sea necesario */

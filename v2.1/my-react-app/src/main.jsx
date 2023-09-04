@@ -9,6 +9,6 @@ import Project from '../src/pages/project.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Project />
+    <Home />
   </React.StrictMode>,
 )

@@ -71,29 +71,9 @@ function Gallery() {
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/D8Hsd06QLxQ?si=IWbBbX6G2tp3FFOz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/NQSnHWc2_VU?si=KYCbunx9ObQcDMu_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/3N-5qEJkKDg?si=MmhNtrROUK6TGlNX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <div className="video-box">
-
-                    </div>
-                    {/* Video 2 */}
-                    <div className="video-box">
-                        <iframe
-                            title="Video 2"
-                            src="https://www.youtube.com/embed/video_id_2"
-                            frameBorder="0"
-                            allowFullScreen
-                        ></iframe>
-                    </div>
-                    {/* Video 3 */}
-                    <div className="video-box">
-                        <iframe
-                            title="Video 3"
-                            src="https://www.youtube.com/embed/video_id_3"
-                            frameBorder="0"
-                            allowFullScreen
-                        ></iframe>
-                    </div>
                     {/* Agregar más videos de YouTube según sea necesario */}
                 </div>
+                <br></br>
             </section>
             <Footer />
         </div>

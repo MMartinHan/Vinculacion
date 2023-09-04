@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/header.jsx';
 import Footer from '../components/footer.jsx';
+import MapComponent from '../components/Map.jsx';
 import './home.css';
 
 function Home() {
@@ -55,8 +56,12 @@ function Home() {
       <br></br>
 
       {/* Sección 4: Características */}
-      <h2>Las actividades de nuestro proyecto</h2>
+  
+      <div className='subtitle'>
+        <h2>Las actividades del proyecto</h2>
+      </div>
       <section className="section4">
+      
         <div className="feature">
           <img src="src/assets/investigacion.jpg" alt="Carac_investigacion" />
           <h3>Investigacion</h3>
@@ -78,7 +83,9 @@ function Home() {
       </section>
 
       {/* Sección 5: Personas Encargadas */}
-      <h2>Quienes lideran el Proyecto</h2>
+      <div className='subtitle'>
+        <h2>Quienes lideran el Proyecto</h2>
+      </div>
       <section className="section5">
         <div className="person">
           <img src="src/assets/persona2.jpg" alt="Persona1" />
@@ -105,13 +112,14 @@ function Home() {
           <h2>ESPE</h2>
           <p>El proyecto de repotenciacion de computadores se realiza en las instalaciones de la Universidad de las Fuerzas Armadas Espe.
             En el Departamento de Ciencias de la Computación, ubicado en el Bloque 1, en el laboratorio de Hardware.
-            <br></br>Av. Gral. Rumiñahui S/N, Sangolquí 171103
-            <br></br>Quito, Ecuador
-            <br></br>(02) 398-9400
+            <br></br>
+            <br></br>- Av. Gral. Rumiñahui S/N, Sangolquí 171103
+            <br></br>- Quito, Ecuador
+            <br></br>- (02) 398-9400
           </p>
         </div>
         <div className="right">
-          <img src="src/assets/mapa_espe.jpg" alt="Mapa" />
+          <MapComponent />
         </div>
       </section>
 

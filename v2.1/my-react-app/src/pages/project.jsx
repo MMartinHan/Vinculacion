@@ -55,6 +55,7 @@ function Project() {
       <br></br>
       {/* Sección de Objetivos */}
       <section className="project-objectives">
+        <br></br>
         <h2>Objetivos del Proyecto</h2>
         <div className="objective-container">
           {/* Objetivo 1 */}
@@ -79,6 +80,7 @@ function Project() {
           </div>
           {/* Agregar más objetivos según sea necesario */}
         </div>
+        <br></br>
       </section>
       <br></br>
       <br></br>

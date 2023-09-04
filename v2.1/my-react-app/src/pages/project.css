@@ -47,6 +47,13 @@
   }
   
   /* Sección de Objetivos */
+
+  .project-objectives {
+    background-color: #002855;
+
+    h2, h3, p{
+        color: #fff;}
+  }
   .project-objectives .objective-container {
     display: flex;
     flex-wrap: wrap;
