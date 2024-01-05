@@ -60,6 +60,7 @@ function Home() {
       <div className='subtitle'>
         <h2>Las actividades del proyecto</h2>
       </div>
+
       <section className="section4">
       
         <div className="feature">
@@ -69,13 +70,13 @@ function Home() {
             quo quas amet ratione, tenetur iste ducimus, dicta saepe. Laudantium minima optio error aliquid placeat?</p>
         </div>
         <div className="feature">
-          <img src="src/assets/reparacion.jpg" alt="Carac_reparacion" />
+          <img className='imgMitad' src="src/assets/reparacion.jpg" alt="Carac_reparacion" />
           <h3>Reparacion</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet sed corporis laboriosam, fugiat voluptas illum,
             natus in quaerat nostrum fuga ullam doloribus nesciunt ex adipisci ipsa ut libero fugit quas.</p>
         </div>
         <div className="feature">
-          <img src="src/assets/donacion.jpg" alt="Carac_entrega" />
+          <img className='imgDerecha' src="src/assets/donacion.jpg" alt="Carac_entrega" />
           <h3>Entrega</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quae sit ex, a nisi veritatis libero, cum ea
             unde doloribus officia itaque laboriosam veniam facilis ducimus iure est quaerat. Dolores.</p>
@@ -88,17 +89,17 @@ function Home() {
       </div>
       <section className="section5">
         <div className="person">
-          <img src="src/assets/persona2.jpg" alt="Persona1" />
+          <img className='director' src="src/assets/persona1.jpg" alt="Persona1" />
           <h4>Ing. Fernando Solis</h4>
           <p>DIRECTOR</p>
         </div>
         <div className="person">
-          <img src="src/assets/persona2.jpg" alt="Persona2" />
+          <img className='colaborador1' src="src/assets/persona2.jpg" alt="Persona2" />
           <h4>Ing. Cesar Chiliquinga</h4>
           <p>COLABORADOR</p>
         </div>
         <div className="person">
-          <img src="src/assets/persona2.jpg" alt="Persona3" />
+          <img className='colaborador2' src="src/assets/persona3.jpg" alt="Persona3" />
           <h4>Ing. Omar Quimbita</h4>
           <p>COLABORADOR</p>
         </div>

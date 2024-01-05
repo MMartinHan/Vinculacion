@@ -118,10 +118,19 @@
   
   /* Estilos para las imágenes de las características */
   .section4 .feature img {
-    max-width: 100%; /* Imágenes ajustadas al ancho del contenedor */
+    width: 100%; /* Imágenes ajustadas al ancho del contenedor */
     height: auto; /* Mantener la proporción de aspecto */
   }
-  
+
+  .section4 .feature .imgMitad{
+    width: 100%;
+    height: 45%;
+  }
+ 
+  .section4 .feature .imgDerecha{
+    width: 100%;
+    height: 45%;
+  }
 
 /* Estilos para la sección 5 (Personas Encargadas) */
 .section5 {
@@ -146,9 +155,25 @@
 }
 
 .section5 .person img {
+    padding: 40px;
     max-width: 100%;
     height: auto;
     /* Estilos para cada imagen aquí */
+}
+
+.section5 .person .director{
+    width: 70%;
+    height: 50%;
+}
+
+.section5 .person .colaborador1{
+    width: 70%;
+    height: 50%;
+}
+
+.section5 .person .colaborador2{
+    width: 70%;
+    height: 50%;
 }
 
 /* Estilos para la sección 6 (Subtítulo, Descripción e Imagen de Mapa) */
