@@ -8,13 +8,13 @@ function Project() {
   const slides = [
     {
       title: 'Misión',
-      image: 'src/assets/panoramicaespe.jpg',
-      description: 'Repotenciar dispositivos electrónicos que aporte como medio de aprendizaje educativo en comunidades marginales del oriente ecuatoriano'
+      image: 'src/assets/repotenciacion2.jpg',
+      description: 'Reparar y donar computadoras provenientes de donaciones corporativas, proporcionando herramientas tecnológicas vitales a comunidades de bajos recursos, impulsando la educación y el progreso en todo el mundo.'
     },
     {
       title: 'Visión',
-      image: 'src/assets/repotenciacion.jpg',
-      description: 'Contribuir al conocimiento de los nuevos profesionales , y al aprendizaje educativo con recursos tecnológicos en comunidades orientales',
+      image: 'src/assets/mundotec.jpg',
+      description: 'Crear un mundo donde la tecnología sea un catalizador de igualdad, capacitando a comunidades desfavorecidas a través del acceso a computadoras restauradas y funcionales, fomentando así el desarrollo y el aprendizaje.',
     },
     // Agregar más slides según sea necesario
   ];
@@ -61,22 +61,20 @@ function Project() {
           {/* Objetivo 1 */}
           <div className="objective-box">
             <h3>Objetivo 1</h3>
-            <p>Asignación recursos y de espacio físico para la creación del
-              laboratorio de mantenimiento correctivo y repotenciación de los
-              equipos informáticos en la Universidad de las Fuerzas Armadas.
-              Departamento de Ciencias de la Computación.</p>
+            <p>Facilitar el acceso a la tecnología reparada y funcional a un número creciente de comunidades desfavorecidas, 
+              asegurando que cada donación impacte directamente en la vida educativa y profesional de quienes la reciben.</p>
           </div>
           {/* Objetivo 2 */}
           <div className="objective-box">
             <h3>Objetivo 2</h3>
-            <p>Implementación del laboratorio para repotenciar los equipos
-              informáticos en la Universidad de las Fuerzas Armadas ESPE..</p>
+            <p>Investigar constantemente nuevas técnicas y herramientas para optimizar el proceso de reparación, 
+              aumentando la eficiencia y la calidad de las restauraciones realizadas en cada computadora.</p>
           </div>
           {/* Objetivo 3 */}
           <div className="objective-box">
             <h3>Objetivo 3</h3>
-            <p>Diagnosticar la situación actual de los equipos informáticos
-              entregados por Schlumberger Ecuador.</p>
+            <p>Medir y evaluar el impacto de nuestras donaciones en las comunidades receptoras, 
+              recopilando datos cuantitativos y cualitativos para comprender y mejorar continuamente nuestro impacto.</p>
           </div>
           {/* Agregar más objetivos según sea necesario */}
         </div>
@@ -88,14 +86,19 @@ function Project() {
       <div className="project-students">
         <div className="student-overlay">
           <img
-            src="src/assets/estudiantes.jpg"
+            src="src/assets/alumnos.jpg"
             alt="Estudiante 1"
             className="student-image"
           />
         </div>
         <div className="student-details">
           <h2>Estudiantes Encargados</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, tempore. Quisquam id deleniti dicta tenetur aut reprehenderit nemo suscipit molestiae beatae dolorum. Iste accusamus ab eaque quod. Distinctio, corrupti debitis..</p>
+          <p>Los estudiantes del Departamento de Ciencias de la Computación (DCCO) de la Universidad de las Fuerzas Armadas ESPE son el pilar fundamental de nuestra iniciativa. 
+            Este grupo de jóvenes dedicados y comprometidos aporta su experiencia, 
+            conocimientos técnicos y pasión por la tecnología a cada etapa del proyecto. 
+            Su participación activa en la investigación, reparación y entrega de las computadoras donadas garantiza un alto estándar de calidad en cada proceso. 
+            Su liderazgo y valores inherentes a la institución fortalecen el impacto social de nuestra labor, 
+            representando un ejemplo destacado de servicio y excelencia en la comunidad.</p>
         </div>
       </div>
       <Footer />

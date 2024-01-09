@@ -64,22 +64,30 @@ function Home() {
       <section className="section4">
       
         <div className="feature">
-          <img src="src/assets/investigacion.jpg" alt="Carac_investigacion" />
+          <img className='imgIzquierda' src="src/assets/investigacion.jpg" alt="Carac_investigacion" />
           <h3>Investigacion</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea dolore, distinctio temporibus ipsa vero blanditiis
-            quo quas amet ratione, tenetur iste ducimus, dicta saepe. Laudantium minima optio error aliquid placeat?</p>
+          <p>Realizamos un análisis minucioso de las computadoras donadas por la empresa petrolera, 
+            identificando las fallas y planificando estrategias de reparación. 
+            Nuestro equipo técnico examina cada dispositivo para diagnosticar problemas y mejorar su rendimiento general. 
+            Esta fase no solo se centra en corregir los fallos visibles, 
+            sino que también busca optimizar su funcionamiento para garantizar su durabilidad y eficiencia a largo plazo.</p>
         </div>
         <div className="feature">
           <img className='imgMitad' src="src/assets/reparacion.jpg" alt="Carac_reparacion" />
           <h3>Reparacion</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet sed corporis laboriosam, fugiat voluptas illum,
-            natus in quaerat nostrum fuga ullam doloribus nesciunt ex adipisci ipsa ut libero fugit quas.</p>
+          <p>Nuestro equipo altamente capacitado se encarga de restaurar cada componente dañado o desgastado de las computadoras. 
+            Utilizamos técnicas avanzadas y herramientas especializadas para realizar reparaciones precisas y asegurar que las máquinas recuperen su funcionalidad original. 
+            Desde la sustitución de piezas clave hasta la optimización del software, 
+            cada paso se ejecuta con cuidado y atención para garantizar la calidad de las reparaciones.</p>
         </div>
         <div className="feature">
           <img className='imgDerecha' src="src/assets/donacion.jpg" alt="Carac_entrega" />
           <h3>Entrega</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quae sit ex, a nisi veritatis libero, cum ea
-            unde doloribus officia itaque laboriosam veniam facilis ducimus iure est quaerat. Dolores.</p>
+          <p>Una vez restauradas, las computadoras son entregadas con dedicación a comunidades de bajos recursos. 
+            Estas donaciones representan oportunidades cruciales, 
+            brindando acceso a la tecnología a aquellos que no podrían obtenerla de otra manera. 
+            Nos aseguramos de que cada máquina reparada llegue a manos de quienes más lo necesitan, 
+            marcando un impacto significativo al proporcionar herramientas vitales para el desarrollo educativo y social en estas comunidades.</p>
         </div>
       </section>
 
@@ -91,16 +99,19 @@ function Home() {
         <div className="person">
           <img className='director' src="src/assets/persona1.jpg" alt="Persona1" />
           <h4>Ing. Fernando Solis</h4>
+          <h4>efsolis@espe.edu.ec</h4>
           <p>DIRECTOR</p>
         </div>
         <div className="person">
           <img className='colaborador1' src="src/assets/persona2.jpg" alt="Persona2" />
           <h4>Ing. Cesar Chiliquinga</h4>
+          <h4>cichiliquinga@espe.edu.ec</h4>
           <p>COLABORADOR</p>
         </div>
         <div className="person">
           <img className='colaborador2' src="src/assets/persona3.jpg" alt="Persona3" />
           <h4>Ing. Omar Quimbita</h4>
+          <h4>orquimbita@espe.edu.ec</h4>
           <p>COLABORADOR</p>
         </div>
       </section>

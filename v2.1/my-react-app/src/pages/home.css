@@ -46,7 +46,7 @@
 .section2 .left img {
     width: 100%;
     /* Ancho del 100% del contenedor */
-    max-width: 500px;
+    max-width: 650px;
     /* Ancho máximo de 400 píxeles */
     /* Agrega otros estilos de la imagen según sea necesario */
 }
@@ -120,6 +120,11 @@
   .section4 .feature img {
     width: 100%; /* Imágenes ajustadas al ancho del contenedor */
     height: auto; /* Mantener la proporción de aspecto */
+  }
+
+  .section4 .feature .imgIzquierda{
+    width: 100%;
+    height: 45%;
   }
 
   .section4 .feature .imgMitad{

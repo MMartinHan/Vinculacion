@@ -13,51 +13,33 @@ function Gallery() {
                 <div className="image-container">
                     {/* Primera fila */}
                     <div className="image-box">
-                        <img src="src/assets/reparacion.jpg" alt="Imagen 1" />
-                        <h3>Subtítulo 1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse qui accusantium magnam, adipisci tenetur, similique vel veniam soluta porro harum vero id. Odit, eius. Similique ab deleniti architecto eaque. Dolores.</p>
+                        <img src="src/assets/3.jpg" alt="Imagen 1" />
                     </div>
                     <div className="image-box">
-                        <img src="src/assets/repotenciacion.jpg" alt="Imagen 2" />
-                        <h3>Subtítulo 2</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, voluptatibus debitis. Asperiores sunt voluptatibus, at ducimus aut commodi necessitatibus velit tempore nobis impedit explicabo dolore incidunt assumenda beatae ad quasi!</p>
+                        <img src="src/assets/2.jpg" alt="Imagen 2" />
                     </div>
                     <div className="image-box">
-                        <img src="src/assets/repotenciacion2.jpg" alt="Imagen 3" />
-                        <h3>Subtítulo 3</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, voluptatum omnis. Dolorum ipsam libero, voluptatibus velit assumenda repellendus odio iste dicta accusamus fugiat optio, vero quasi delectus, in officia minima.</p>
+                        <img src="src/assets/1.jpg" alt="Imagen 3" />
                     </div>
                     {/* Segunda fila */}
                     <div className="image-box">
-                        <img src="src/assets/tapa.jpg" alt="Imagen 4" />
-                        <h3>Subtítulo 4</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae non necessitatibus dicta ex, mollitia incidunt cumque dolores aspernatur. Ad unde odit quis est nihil earum fugit modi, quaerat inventore! Amet.</p>
+                        <img src="src/assets/4.jpg" alt="Imagen 4" />
                     </div>
                     <div className="image-box">
-                        <img src="src/assets/ventilador.jpeg" alt="Imagen 5" />
-                        <h3>Subtítulo 5</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sequi facilis laboriosam earum. Dignissimos, sed quos nulla blanditiis, similique, neque eum optio dicta cumque provident vero quod veniam facilis maxime.</p>
+                        <img src="src/assets/5.jpg" alt="Imagen 5" />
                     </div>
                     <div className="image-box">
-                        <img src="src/assets/donacion.jpg" alt="Imagen 6" />
-                        <h3>Subtítulo 6</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum neque officiis animi labore tenetur assumenda aperiam quos tempore deleniti molestiae iure asperiores voluptatibus similique enim, numquam commodi et facilis qui!</p>
+                        <img src="src/assets/g1.png" alt="Imagen 6" />
                     </div>
                     {/* 3era fila */}
                     <div className="image-box">
-                        <img src="src/assets/tapa.jpg" alt="Imagen 7" />
-                        <h3>Subtítulo 7</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eius eveniet ad dolore commodi quam molestiae illum. In, fugiat quae aliquid alias est, recusandae distinctio eveniet inventore suscipit velit officiis!</p>
+                        <img src="src/assets/alumnos.jpg" alt="Imagen 7" />
                     </div>
                     <div className="image-box">
-                        <img src="src/assets/ventilador.jpeg" alt="Imagen 8" />
-                        <h3>Subtítulo 8</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, velit similique molestiae asperiores qui ducimus adipisci architecto, accusamus placeat quisquam sint? Impedit aut eos ex perspiciatis repellat, adipisci totam fugit!</p>
+                        <img src="src/assets/1.jpg" alt="Imagen 8" />
                     </div>
                     <div className="image-box">
                         <img src="src/assets/donacion.jpg" alt="Imagen 9" />
-                        <h3>Subtítulo 9</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quo accusamus enim quod sapiente accusantium a ratione impedit nihil pariatur eos corrupti nesciunt voluptatibus velit totam quia, ducimus quos aut?</p>
                     </div>
                 </div>
             </section>

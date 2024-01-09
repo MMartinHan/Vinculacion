@@ -20,9 +20,6 @@ function Header() {
           <li className="nav-item">
             <Link to="/galeria">Galería</Link>
           </li>
-          <li className="nav-item">
-            <Link to="/contacto">Contacto</Link>
-          </li>
           <li className="nav-item login-button">
             <a href="#">Ingresar</a>
           </li>

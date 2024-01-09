@@ -42,7 +42,7 @@
   .project-mission-vision img {
     max-width: 100%;
     height: auto;
-    height: 500px;
+    height: 100%;
     width: auto;
   }
   
@@ -92,10 +92,8 @@
   height: auto;
   width: 100%;
   position: absolute;*/
-  display: flex;
-  flex-wrap: wrap;
-  width: 80%;
   height: auto;
+  max-width: 650px;
   
 }
 

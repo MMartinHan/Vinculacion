@@ -25,7 +25,10 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
-  }
+    display: flex; /* Agregado para flexbox */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+}
   
   .image-gallery .image-box img {
     max-width: 100%;
