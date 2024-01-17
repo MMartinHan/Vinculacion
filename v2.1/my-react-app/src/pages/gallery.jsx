@@ -49,10 +49,7 @@ function Gallery() {
                 <h2>Galería de Videos</h2>
                 <div className="video-container">
                     {/* Video 1 */}
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cO98d94GblY?si=9Lry-zZ3_wz7kC_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/D8Hsd06QLxQ?si=IWbBbX6G2tp3FFOz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NQSnHWc2_VU?si=KYCbunx9ObQcDMu_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3N-5qEJkKDg?si=MmhNtrROUK6TGlNX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/SLTYVd7FJv4?si=IzRT9EMp0ocgb5T8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     {/* Agregar más videos de YouTube según sea necesario */}
                 </div>
                 <br></br>
