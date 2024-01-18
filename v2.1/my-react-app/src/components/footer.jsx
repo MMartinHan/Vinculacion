@@ -17,7 +17,7 @@ function Footer() {
                 </div>
             </div>
             <div className="copyright">
-                © {new Date().getFullYear()} Copyright © 2023 | Universidad de las Fuerzas Armadas Espe. 
+                © {new Date().getFullYear()} | by Martin Han and Mateo Andrade
             </div>
         </footer>
     );

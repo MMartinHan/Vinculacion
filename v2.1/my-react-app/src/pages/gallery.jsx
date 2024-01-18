@@ -2,6 +2,16 @@ import React from 'react';
 import Header from '../components/header.jsx';
 import Footer from '../components/footer.jsx';
 import './gallery.css';
+import img3 from '../assets/3.jpg';
+import img4 from '../assets/2.jpg';
+import img5 from '../assets/1.jpg';
+import img6 from '../assets/4.jpg';
+import img7 from '../assets/5.jpg';
+import img8 from '../assets/g1.png';
+import img9 from '../assets/alumnos.jpg';
+import img10 from '../assets/donacion.jpg';
+
+import logoImage from '../assets/logo_espe.png';
 
 function Gallery() {
     return (
@@ -13,33 +23,34 @@ function Gallery() {
                 <div className="image-container">
                     {/* Primera fila */}
                     <div className="image-box">
-                        <img src="src/assets/3.jpg" alt="Imagen 1" />
+                        {/*<img src="src/assets/3.jpg" alt="Imagen 1" />*/}
+                        <img src={img3} alt="Imagen 1" />
                     </div>
                     <div className="image-box">
-                        <img src="src/assets/2.jpg" alt="Imagen 2" />
+                        <img src={img4} alt="Imagen 2" />
                     </div>
                     <div className="image-box">
-                        <img src="src/assets/1.jpg" alt="Imagen 3" />
+                        <img src={img5} alt="Imagen 3" />
                     </div>
                     {/* Segunda fila */}
                     <div className="image-box">
-                        <img src="src/assets/4.jpg" alt="Imagen 4" />
+                        <img src={img6} alt="Imagen 4" />
                     </div>
                     <div className="image-box">
-                        <img src="src/assets/5.jpg" alt="Imagen 5" />
+                        <img src={img7} alt="Imagen 5" />
                     </div>
                     <div className="image-box">
-                        <img src="src/assets/g1.png" alt="Imagen 6" />
+                        <img src={img8} alt="Imagen 6" />
                     </div>
                     {/* 3era fila */}
                     <div className="image-box">
-                        <img src="src/assets/alumnos.jpg" alt="Imagen 7" />
+                        <img src={img9} alt="Imagen 7" />
                     </div>
                     <div className="image-box">
-                        <img src="src/assets/1.jpg" alt="Imagen 8" />
+                        <img src={img5} alt="Imagen 8" />
                     </div>
                     <div className="image-box">
-                        <img src="src/assets/donacion.jpg" alt="Imagen 9" />
+                        <img src={img10} alt="Imagen 9" />
                     </div>
                 </div>
             </section>

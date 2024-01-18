@@ -4,6 +4,14 @@ import Footer from '../components/footer.jsx';
 import MapComponent from '../components/Map.jsx';
 import './home.css';
 
+import imgPanoramica from '../assets/panoramicaespe.jpg';
+import imgReparacion from '../assets/reparacion.jpg';
+import imgInvestigacion from '../assets/investigacion.jpg';
+import imgDonacion from '../assets/donacion.jpg';
+import imgP1 from '../assets/persona1.jpg';
+import imgP2 from '../assets/persona2.jpg';
+import imgP3 from '../assets/persona3.jpg';
+
 function Home() {
   return (
     <div className="home">
@@ -17,7 +25,7 @@ function Home() {
       {/* Sección 2: Imagen y Descripción */}
       <section className="section2">
         <div className="left">
-          <img src="src/assets/panoramicaespe.jpg" alt="Imagen de proyecto" />
+          <img src={imgPanoramica} alt="Imagen de proyecto" />
         </div>
         <div className="right">
           <h2>Sobre el Proyecto</h2>
@@ -64,7 +72,7 @@ function Home() {
       <section className="section4">
       
         <div className="feature">
-          <img className='imgIzquierda' src="src/assets/investigacion.jpg" alt="Carac_investigacion" />
+          <img className='imgIzquierda' src={imgInvestigacion} alt="Carac_investigacion" />
           <h3>Investigacion</h3>
           <p>Realizamos un análisis minucioso de las computadoras donadas por la empresa petrolera, 
             identificando las fallas y planificando estrategias de reparación. 
@@ -73,7 +81,7 @@ function Home() {
             sino que también busca optimizar su funcionamiento para garantizar su durabilidad y eficiencia a largo plazo.</p>
         </div>
         <div className="feature">
-          <img className='imgMitad' src="src/assets/reparacion.jpg" alt="Carac_reparacion" />
+          <img className='imgMitad' src={imgReparacion} alt="Carac_reparacion" />
           <h3>Reparacion</h3>
           <p>Nuestro equipo altamente capacitado se encarga de restaurar cada componente dañado o desgastado de las computadoras. 
             Utilizamos técnicas avanzadas y herramientas especializadas para realizar reparaciones precisas y asegurar que las máquinas recuperen su funcionalidad original. 
@@ -81,7 +89,7 @@ function Home() {
             cada paso se ejecuta con cuidado y atención para garantizar la calidad de las reparaciones.</p>
         </div>
         <div className="feature">
-          <img className='imgDerecha' src="src/assets/donacion.jpg" alt="Carac_entrega" />
+          <img className='imgDerecha' src={imgDonacion} alt="Carac_entrega" />
           <h3>Entrega</h3>
           <p>Una vez restauradas, las computadoras son entregadas con dedicación a comunidades de bajos recursos. 
             Estas donaciones representan oportunidades cruciales, 
@@ -97,19 +105,19 @@ function Home() {
       </div>
       <section className="section5">
         <div className="person">
-          <img className='director' src="src/assets/persona1.jpg" alt="Persona1" />
+          <img className='director' src={imgP1} alt="Persona1" />
           <h4>Ing. Fernando Solis</h4>
           <h4>efsolis@espe.edu.ec</h4>
           <p>DIRECTOR</p>
         </div>
         <div className="person">
-          <img className='colaborador1' src="src/assets/persona2.jpg" alt="Persona2" />
+          <img className='colaborador1' src={imgP2} alt="Persona2" />
           <h4>Ing. Cesar Chiliquinga</h4>
           <h4>cichiliquinga@espe.edu.ec</h4>
           <p>COLABORADOR</p>
         </div>
         <div className="person">
-          <img className='colaborador2' src="src/assets/persona3.jpg" alt="Persona3" />
+          <img className='colaborador2' src={imgP3} alt="Persona3" />
           <h4>Ing. Omar Quimbita</h4>
           <h4>orquimbita@espe.edu.ec</h4>
           <p>COLABORADOR</p>

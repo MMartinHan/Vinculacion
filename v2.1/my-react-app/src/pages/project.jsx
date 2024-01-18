@@ -3,17 +3,21 @@ import './Project.css';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
+import imgRepot2 from '../assets/repotenciacion2.jpg';
+import imgMundoTec from '../assets/mundotec.jpg';
+import imgAlumnos from '../assets/alumnos.jpg';
+
 function Project() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
     {
       title: 'Misión',
-      image: 'src/assets/repotenciacion2.jpg',
+      image: imgRepot2,
       description: 'Reparar y donar computadoras provenientes de donaciones corporativas, proporcionando herramientas tecnológicas vitales a comunidades de bajos recursos, impulsando la educación y el progreso en todo el mundo.'
     },
     {
       title: 'Visión',
-      image: 'src/assets/mundotec.jpg',
+      image: imgMundoTec,
       description: 'Crear un mundo donde la tecnología sea un catalizador de igualdad, capacitando a comunidades desfavorecidas a través del acceso a computadoras restauradas y funcionales, fomentando así el desarrollo y el aprendizaje.',
     },
     // Agregar más slides según sea necesario
@@ -86,7 +90,7 @@ function Project() {
       <div className="project-students">
         <div className="student-overlay">
           <img
-            src="src/assets/alumnos.jpg"
+            src={imgAlumnos}
             alt="Estudiante 1"
             className="student-image"
           />
