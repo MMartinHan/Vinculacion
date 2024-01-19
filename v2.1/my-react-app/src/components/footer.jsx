@@ -9,15 +9,9 @@ function Footer() {
                 <div className="footer-left">
                     <div className="logo"><img src={logoImage} alt="Logo_espe" /></div>
                 </div>
-                <div className="footer-right">
-                    <ul className="footer-menu">
-                        <li><a href="/proyecto">Proyecto</a></li>
-                        <li><a href="/galeria">Galería</a></li>
-                    </ul>
-                </div>
             </div>
             <div className="copyright">
-                © {new Date().getFullYear()} | by Martin Han and Mateo Andrade
+                © Copyright {new Date().getFullYear()} | by Martin Han and Mateo Andrade DCCO - ESPE
             </div>
         </footer>
     );
